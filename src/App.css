@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(./images/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+.size-card {
+  height: 157px;
+  width: 286px;
+  border-radius: 6px;
+}
+#bg {
+  margin-top: 32px;
+  margin-right: 16px;
+  margin-left: 72px;
+}
+#ft {
+  margin-left: 17px;
+  position: relative;
+  bottom: 73px;
+}
+.top-left {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 53.02px;
+  position: relative;
+  top: 8.5rem;
+  color: white;
+}
+/* img[alt~="logo"] {
+  width:84px; 
+  height:47px;
+} */
+#logo {
+  width: 38px;
+  height: 25px;
+}
+.bg-atributes {
+  margin-left: 36px;
+  position: relative;
+  bottom: 14em;
+}
+#card-number {
+  margin-top: 37px;
+  margin-right: 7px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 2.2px;
+}
+.bottom-inf {
+  display: flex;
+  column-gap: 126px;
+}
+#btm-size {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 1.28571px;
+  position: relative;
+  top: 2px;
+}
+
+#card-number,
+.bottom-inf {
+  color: white;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.exp-date {
+  display: flex;
+  column-gap: 8px;
+}
+#exp-size {
+  height: 45px;
+  width: 72px;
+}
+#cvc {
+  margin-left: 40px;
+}
+#cvc-size {
+  height: 45px;
+  width: 164px;
+  border-radius: 8px;
+  /* White */
+}
+#submit {
+  background: #21092f;
+  border-radius: 8px;
+  height: 53px;
+  width: 327px;
+
+  color: white;
+
+  margin-top: 28px;
+}
+.form-cont {
+  margin-left: 24px;
+  position: relative;
+  bottom: 140px;
+}
+#top-inpts {
+  height: 45px;
+  width: 327px;
+}
+#top-inpts,
+#cvc-size,
+#exp-size {
+  background: #ffffff;
+  /* Light Grey */
+
+  border: 1px solid #dfdee0;
+  border-radius: 8px;
+}
+.completed {
+  text-align: center;
+  position: relative;
+  bottom: 10em;
+}
+
+.errors {
+  display: flex;
+  column-gap: 70px;
+}
+.error {
+  color: red;
+}
+
+@media only screen and (min-width: 600px) {
+ body {
+  background-image: url(./images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+ }
+ .size-card {
+  height: 245px;
+width: 447px;
+border-radius: 10px;
+
+ }
+ #bg {
+  position: relative;
+  top: 469px;
+  left: 258px;
+ }
+
+ #ft {
+  position: relative;
+  top: 187px;
+  left: -120px;
+ }
+ form {
+position: relative;
+left: 950px;
+ }
+ .bg-atributes {
+  position: relative;
+  top: -25px;
+  left: 450px;
+ }
+ #logo {
+  width: 70px;
+  height: 45px;
+ }
+ .form-cont {
+  height: 352px;
+width: 381px;
+
+
+ }
+ #btm-size {
+  font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 2px;
+top: 10px;
+ }
+ #card-number {
+  font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height */
+
+letter-spacing: 3.42222px;
+ }
+ .bottom-inf {
+  column-gap: 180px;
+ }
+ .top-left {
+  
+  justify-content: flex-start;
+  left: 685px;
+  top:648px;
+  z-index: 1;
+  
+ }
+}
