@@ -56,12 +56,12 @@ setFormValues({...formValues,[name]:value})
   function addSpaces(string:string) {
     const chunks = string.split("").reduce((result:string[], char, index) => {
       if (index % 4 === 0 && index > 0) {
-        result.push(" "); // add space between chunks
+        result.push(" "); 
       }
-      result.push(char); // add current character to current chunk
+      result.push(char); 
       return result;
     }, []);
-    return chunks.join(""); // join chunks back into a string
+    return chunks.join("");
   }
   const space = addSpaces(cardNum);
   const refresh = () => window.location.reload()
