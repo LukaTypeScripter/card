@@ -51,7 +51,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-  /* identical to box height */
+  
 
   letter-spacing: 2.2px;
 }
@@ -91,7 +91,7 @@ label {
   height: 45px;
   width: 164px;
   border-radius: 8px;
-  /* White */
+  
 }
 #submit {
   background: #21092f;
@@ -116,7 +116,7 @@ label {
 #cvc-size,
 #exp-size {
   background: #ffffff;
-  /* Light Grey */
+  
 
   border: 1px solid #dfdee0;
   border-radius: 8px;
@@ -142,9 +142,9 @@ label {
   background-size: auto 100vh;
  }
  .size-card {
-  height: 245px;
-width: 447px;
-border-radius: 10px;
+ height: 245px;
+ width: 447px;
+ border-radius: 10px;
 
  }
  #bg {
@@ -159,8 +159,8 @@ border-radius: 10px;
   left: -120px;
  }
  form {
-position: relative;
-left: 950px;
+ position: relative;
+ left: 950px;
  }
  .bg-atributes {
   position: relative;
@@ -172,27 +172,27 @@ left: 950px;
   height: 45px;
  }
  .form-cont {
-  height: 352px;
-width: 381px;
+ height: 352px;
+ width: 381px;
 
 
  }
  #btm-size {
   font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-/* identical to box height */
+  font-size: 14px;
+  line-height: 18px;
 
-letter-spacing: 2px;
-top: 10px;
+
+ letter-spacing: 2px;
+ top: 10px;
  }
  #card-number {
-  font-weight: 500;
-font-size: 28px;
-line-height: 36px;
-/* identical to box height */
+ font-weight: 500;
+ font-size: 28px;
+ line-height: 36px;
 
-letter-spacing: 3.42222px;
+
+ letter-spacing: 3.42222px;
  }
  .bottom-inf {
   column-gap: 180px;
